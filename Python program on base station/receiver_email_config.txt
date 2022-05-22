@@ -1,0 +1,3 @@
+[type_receiver_email_address_here]
+[can_have_multiple_email_receivers]
+[just_type_the_address_in_a_new_line]

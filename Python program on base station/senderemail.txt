@@ -1,0 +1,2 @@
+[type_sender_email_address_here]
+[type_sender_email_password_here]
