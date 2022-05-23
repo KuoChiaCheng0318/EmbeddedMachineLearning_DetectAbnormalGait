@@ -2,6 +2,7 @@
  This is a project of building a device that can detect user's abnormal gaits and send alert emails when falling motion detected.
 <br />
  Demo Video: https://www.youtube.com/watch?v=o6Hw3dhA_e8
+ The manuscript of the device is in the DetectFalling&AbnormalGait_Manuscript.pdf file.
 <br /><br />
 My device is designed to solve the problem that, elderly or some patients have higher risk of falling over due to the lack of muscle strength. There might not be a person to look after the elderly or
 patient all the time, and the consequences of falling over might be serious if not treated immediately after the falling incident. As a result, I would like to propose a device which can track user’s gait
@@ -30,7 +31,7 @@ parkinsonian gait, slap gait, antalgic gait, diplegic gait, ataxic gait.
 I have totally collected 3 hours of data, with each class having
 approximately 20 minutes of data.
 <h2>Model Architecture and Training</h2>
-Diagram of the model architecture.
+Diagram of the model architecture:
 <br />
 <img src="images/model architecture.png" width="500px">
 <br />
