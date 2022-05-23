@@ -7,7 +7,15 @@ My device is designed to solve the problem that, elderly or some patients have h
 patient all the time, and the consequences of falling over might be serious if not treated immediately after the falling incident. As a result, I would like to propose a device which can track user’s gait
 motion and raise alert when user falling over. There are two main functions of my device: 1) detect user’s abnormal gaits and record the walking motions. 2) Send alert emails when falling motion
 detected. The system is implemented using Arduino Nano 33 Sense, Edge Impulse, Bluetooth, and Python.
-<br />
+<br /><br />
 System design:
 <br />
 <img src="images/diagram.png" width="500px">
+<br />
+There are two key features of my device, one is to recognize abnormal
+gaits, the other one is to raise warning when falling motion
+detected. There are four important steps in my progress of building
+the system. 1) Data collection 2) Machine Learning Model Building
+and Training 3) Integrating Bluetooth function with the machine
+learning model generated from Edge Impulse 4) Build a python
+program on base station.
