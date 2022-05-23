@@ -8,7 +8,7 @@ patient all the time, and the consequences of falling over might be serious if n
 motion and raise alert when user falling over. There are two main functions of my device: 1) detect user’s abnormal gaits and record the walking motions. 2) Send alert emails when falling motion
 detected. The system is implemented using Arduino Nano 33 Sense, Edge Impulse, Bluetooth, and Python.
 <br /><br />
-<h2>System design:</h2>
+<h2>System design</h2>
 <br />
 <img src="images/diagram.png" width="500px">
 <br />
