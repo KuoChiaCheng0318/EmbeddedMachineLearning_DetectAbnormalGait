@@ -30,7 +30,7 @@ parkinsonian gait, slap gait, antalgic gait, diplegic gait, ataxic gait.
 I have totally collected 3 hours of data, with each class having
 approximately 20 minutes of data.
 <h2>Model Architecture and Training</h2>
-Diagram of model architecture.
+Diagram of the model architecture.
 <br />
 <img src="images/model architecture.png" width="500px">
 <br />
@@ -39,3 +39,19 @@ My model architecture had
 The model was trained in 50 epochs, with the learning rate of 0.0005.
 The validation data was split from training data, with a portion
 of 20 %.
+<br />
+<h2>Accuracy</h2>
+<br />
+<img src="images/train result.png" width="500px">
+<br />
+The result of the trained model achieved an accuracy of
+94.7 %, and all classes of data have accuracy over 90 %.
+<br />
+<h2>Power Consumption</h2>
+<br />
+<img src="images/pwr consumption.png" width="500px">
+<br />
+The result of the power consumption experiment showed that the system can operate
+normally (continue to predict motion and transmit prediction result
+to a base station via Bluetooth), for over 20 hours using
+Amazon 9v alkaline battery.
