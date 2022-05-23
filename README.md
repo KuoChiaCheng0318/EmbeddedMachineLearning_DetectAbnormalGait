@@ -9,4 +9,5 @@ motion and raise alert when user falling over. There are two main functions of m
 detected. The system is implemented using Arduino Nano 33 Sense, Edge Impulse, Bluetooth, and Python.
 <br />
 System design:
+<br />
 <img src="images/diagram.png" width="500px">
