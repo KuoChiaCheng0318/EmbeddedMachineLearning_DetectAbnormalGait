@@ -2,6 +2,7 @@
  This is a project of building a device that can detect user's abnormal gaits and send alert emails when falling motion detected.
 <br />
  Demo Video: https://www.youtube.com/watch?v=o6Hw3dhA_e8
+ <br />
  The manuscript of the device is in the DetectFalling&AbnormalGait_Manuscript.pdf file.
 <br /><br />
 My device is designed to solve the problem that, elderly or some patients have higher risk of falling over due to the lack of muscle strength. There might not be a person to look after the elderly or
