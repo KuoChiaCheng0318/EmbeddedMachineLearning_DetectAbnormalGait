@@ -2,7 +2,7 @@
  A project of building a device that can detect user's abnormal gaits and send alert emails when falling motion detected.
 <br />
  Demo Video: https://www.youtube.com/watch?v=o6Hw3dhA_e8
-<br />
+<br /><br />
 My device is designed to solve the problem that, elderly or some patients have higher risk of falling over due to the lack of muscle strength. There might not be a person to look after the elderly or
 patient all the time, and the consequences of falling over might be serious if not treated immediately after the falling incident. As a result, I would like to propose a device which can track user’s gait
 motion and raise alert when user falling over. There are two main functions of my device: 1) detect user’s abnormal gaits and record the walking motions. 2) Send alert emails when falling motion
@@ -21,7 +21,21 @@ learning model generated from Edge Impulse 4) Build a python
 program on base station.
 <br />
 <h2>Data collection</h2>
-Plot of all extracted features from data.
+Plot of all extracted features from data:
 <br />
 <img src="images/data feature.png" width="500px">
 <br />
+There are 8 classes of data collected: idle, fall, normal walking,
+parkinsonian gait, slap gait, antalgic gait, diplegic gait, ataxic gait.
+I have totally collected 3 hours of data, with each class having
+approximately 20 minutes of data.
+<h2>Model Architecture and Training</h2>
+Diagram of model architecture.
+<br />
+<img src="images/model architecture.png" width="500px">
+<br />
+My model architecture had
+3 layers of dense layers, with 20, 10 and 10 neurons respectively.
+The model was trained in 50 epochs, with the learning rate of 0.0005.
+The validation data was split from training data, with a portion
+of 20 %.
