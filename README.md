@@ -1,7 +1,7 @@
 # EmbeddedMachineLearning_DetectAbnormalGait
  This is a project of building a device that can detect user's abnormal gaits and send alert emails when falling motion detected.
 <br />
- Demo Video: https://www.youtube.com/watch?v=o6Hw3dhA_e8
+ Demo Video: https://www.youtube.com/watch?v=o6Hw3dhA_e8, https://www.youtube.com/watch?v=swJ3hVOH4Zo
  <img src="images/Demo.png" width="500px">
  <br />
  The manuscript of the device is in the DetectFalling&AbnormalGait_Manuscript.pdf file.
